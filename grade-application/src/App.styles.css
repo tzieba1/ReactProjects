@@ -1,0 +1,39 @@
+.App {
+  height: 100%;
+  background: rgb(16,120,105);
+  background: radial-gradient(ellipse at bottom, rgba(16,120,105,1) 0%, rgba(26,86,83,1) 50%, rgba(8,49,58,1) 90%);
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  min-width: 475px;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid rgba(92,216,80,0.2);
+  border-radius : 50px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.AnalyticsTable, .CourseTable {
+  border: 3px solid rgba(92,216,80,0.2);
+  border-radius : 50px;
+  padding: 21px;
+  margin-bottom: 15px;
+  border-spacing: 0;
+}
+
+.CourseTable {
+  width: 66.67%;
+  min-width: 465px;
+  max-width: 700px
+}
+
+.AnalyticsTable {
+  width: 465px;
+}

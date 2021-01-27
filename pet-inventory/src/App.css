@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  margin: 0;
+  min-width: 365px;
+}
+
+footer { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Cousine', sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  color: #551A8B;
+  border-top: solid 1px #551A8B; 
+  border-bottom: solid 4px #551A8B; 
+  border-radius: 15px; 
+  height: 36px; 
+  margin: 2%;
+  background-color: rgba(249,174,86,0.3);
+}
+
+hr { border-color: #551A8B;}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cousine&family=Nerko+One&family=Ropa+Sans:ital@0;1&display=swap');
+
+
+body {
+  margin: 0;
+  min-width: 250px;
+  font-family: "Cousine", Monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 { 
+  font-family: 'Ropa Sans', sans-serif;
+  font-style: italic;
+}
+
+hr { margin: 0 10%;}
+
+html { background-color: rgba(249,174,86,0.3);}
+
+em { font-weight: 700;}
+
+#note {font-size: 12px; margin: 12px 45px; }

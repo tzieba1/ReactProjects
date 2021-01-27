@@ -1,0 +1,9 @@
+.Button {
+  outline: none;
+  height: 32px;
+  width: 32px;
+}
+
+.Button:hover {
+  transform: translateX(2px) translateY(2px);
+}

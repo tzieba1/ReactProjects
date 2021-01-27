@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+fieldset { 
+  background-color: #29660c44;
+  color: #F7E2C7;
+  border: 1px solid #1C4508;
+  border-radius: 30px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  margin-bottom: 15px;
+  padding: 6px;
+}
+
+fieldset > * {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+}
+
+.TextInput {
+  display: flex;
+  flex-flow: row;
+}
+
+label {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  width: 137px;
+  margin-left: 5px;
+}
+
+#form-button-size {
+  height: 64px;
+  width: 64px;
+}

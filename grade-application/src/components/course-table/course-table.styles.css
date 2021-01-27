@@ -1,0 +1,19 @@
+#actionCell, #courseCell, #gradeCell {
+  padding: 3px 7px;
+  color: #F7E2C7;
+}
+
+#actionCell {
+  width: 78px;
+}
+
+#courseCell {
+  text-align: left;
+  max-width: 200px;
+  word-wrap: break-word;
+}
+
+#gradeCell {
+  width: 73px;
+}
+

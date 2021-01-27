@@ -1,0 +1,31 @@
+.navLink {
+  text-decoration: none;
+  font-family: 'Nerko One', cursive;
+  font-size: 27px;
+  padding-left: 15px;
+}
+
+.Navigation { 
+  border-bottom: #551A8B solid 4px; 
+  border-top: #551A8B solid 1px; 
+  margin: 7px 5px 0 5px; 
+  background-color: rgba(249,174,86,0.3); 
+  border-radius: 15px;
+  min-width: 320px;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav > ul > li > img { padding-left: 10px; padding-top: 5px;}
+
+.navLinkActive {
+  color: gray;
+  text-decoration: underline;
+}
